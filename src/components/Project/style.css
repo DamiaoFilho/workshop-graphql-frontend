@@ -1,0 +1,47 @@
+article {
+  margin: 0 0 1.5rem;
+  padding: 1.5rem;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #aaa;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    background-color: #454545;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+  }
+
+  &:hover {
+    border-color: #0070f3;
+  }
+
+  a {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
